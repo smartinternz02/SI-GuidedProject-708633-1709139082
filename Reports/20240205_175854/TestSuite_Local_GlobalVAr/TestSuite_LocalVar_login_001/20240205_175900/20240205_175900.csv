@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_LocalVar_login_001,Firefox 122.0,,,05-02-2024 18:00:08,05-02-2024 18:00:30,22.500s,PASSED
+,,,,,,,
+Test Cases/Local_Global_Variable/LocalVariable_TC_Cura_Login_001,Firefox 122.0,,,05-02-2024 18:00:08,05-02-2024 18:00:30,21.707s,PASSED
+Start listener action : Login,Firefox 122.0,,,05-02-2024 18:00:09,05-02-2024 18:00:10,1.424s,ERROR
+"openBrowser("""")",Firefox 122.0,,,05-02-2024 18:00:11,05-02-2024 18:00:19,8.734s,PASSED
+navigateToUrl(url),Firefox 122.0,,,05-02-2024 18:00:19,05-02-2024 18:00:23,3.877s,PASSED
+"click(findTestObject(""Cura_Login_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 122.0,,,05-02-2024 18:00:23,05-02-2024 18:00:24,1.185s,PASSED
+"setText(findTestObject(""Cura_Login_OR/Page_CURA Healthcare Service/input_Username_username""), username)",Firefox 122.0,,,05-02-2024 18:00:24,05-02-2024 18:00:25,0.966s,PASSED
+"setText(findTestObject(""Cura_Login_OR/Page_CURA Healthcare Service/input_Password_password""), password)",Firefox 122.0,,,05-02-2024 18:00:25,05-02-2024 18:00:26,0.719s,PASSED
+"click(findTestObject(""Cura_Login_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,,,05-02-2024 18:00:26,05-02-2024 18:00:27,1.090s,PASSED
+"verifyElementPresent(findTestObject(""Cura_Login_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Firefox 122.0,,,05-02-2024 18:00:27,05-02-2024 18:00:28,0.441s,PASSED
+closeBrowser(),Firefox 122.0,,,05-02-2024 18:00:28,05-02-2024 18:00:30,2.223s,PASSED
+Start listener action : logout,Firefox 122.0,,,05-02-2024 18:00:30,05-02-2024 18:00:30,0.180s,ERROR

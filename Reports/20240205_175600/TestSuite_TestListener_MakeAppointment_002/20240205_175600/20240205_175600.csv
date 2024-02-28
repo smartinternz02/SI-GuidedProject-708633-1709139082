@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_TestListener_MakeAppointment_002,Firefox 122.0,,,05-02-2024 17:56:17,05-02-2024 17:56:47,29.827s,PASSED
+,,,,,,,
+Test Cases/TestListerner/TC_TestListener_MakeAppointment_002,Firefox 122.0,record and play mode make appointment tc_002,,05-02-2024 17:56:35,05-02-2024 17:56:47,11.678s,PASSED
+Start listener action : Login,Firefox 122.0,,,05-02-2024 17:56:36,05-02-2024 17:56:38,2.819s,PASSED
+"selectOptionByValue(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center     Hongkong CURA Healthcare Center  Seoul CURA Healthcare Center""), ""Hongkong CURA Healthcare Center"", true)",Firefox 122.0,,,05-02-2024 17:56:39,05-02-2024 17:56:40,1.377s,PASSED
+"click(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Firefox 122.0,,,05-02-2024 17:56:40,05-02-2024 17:56:41,0.665s,PASSED
+"click(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/label_Medicare""))",Firefox 122.0,,,05-02-2024 17:56:41,05-02-2024 17:56:41,0.636s,PASSED
+"click(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Firefox 122.0,,,05-02-2024 17:56:41,05-02-2024 17:56:42,0.704s,PASSED
+"click(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/td_22""))",Firefox 122.0,,,05-02-2024 17:56:42,05-02-2024 17:56:43,0.655s,PASSED
+"setText(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/textarea_Comment_comment""), ""MakeAppointment SetUp And TearDown with TestcaseListener"")",Firefox 122.0,,,05-02-2024 17:56:43,05-02-2024 17:56:43,0.742s,PASSED
+"click(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 122.0,,,05-02-2024 17:56:43,05-02-2024 17:56:44,0.851s,PASSED
+Start listener action : logout,Firefox 122.0,,,05-02-2024 17:56:44,05-02-2024 17:56:47,2.618s,PASSED

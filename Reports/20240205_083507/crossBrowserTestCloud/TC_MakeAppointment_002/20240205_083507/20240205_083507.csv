@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_MakeAppointment_002,,crossbrowser testing,,05-02-2024 08:35:20,05-02-2024 08:35:34,13.859s,FAILED
+,,,,,,,
+Test Cases/TC_Cura_MakeAppointment_002,,record and play mode make appointment tc_002,,05-02-2024 08:35:32,05-02-2024 08:35:34,2.163s,FAILED
+"openBrowser(null, STOP_ON_FAILURE)",,,,05-02-2024 08:35:32,05-02-2024 08:35:34,2.094s,FAILED

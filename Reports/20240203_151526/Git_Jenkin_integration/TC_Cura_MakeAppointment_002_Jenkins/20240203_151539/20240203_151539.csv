@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_Cura_MakeAppointment_002_Jenkins,Firefox 122.0,,,03-02-2024 15:15:50,03-02-2024 15:16:35,44.719s,PASSED
+,,,,,,,
+Test Cases/TC_Cura_MakeAppointment_002,Firefox 122.0,record and play mode make appointment tc_002,,03-02-2024 15:15:51,03-02-2024 15:16:35,44.077s,PASSED
+Start listener action : Login,Firefox 122.0,,,03-02-2024 15:15:51,03-02-2024 15:15:53,1.929s,ERROR
+openBrowser(null),Firefox 122.0,,,03-02-2024 15:15:54,03-02-2024 15:16:07,13.766s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,03-02-2024 15:16:07,03-02-2024 15:16:12,4.760s,PASSED
+"click(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 122.0,,,03-02-2024 15:16:12,03-02-2024 15:16:18,5.496s,PASSED
+"setText(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 122.0,,,03-02-2024 15:16:18,03-02-2024 15:16:19,1.344s,PASSED
+"setEncryptedText(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 122.0,,,03-02-2024 15:16:19,03-02-2024 15:16:19,0.434s,PASSED
+"click(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,,,03-02-2024 15:16:19,03-02-2024 15:16:21,1.226s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center     Hongkong CURA Healthcare Center  Seoul CURA Healthcare Center""), ""Hongkong CURA Healthcare Center"", false, 0)",Firefox 122.0,,,03-02-2024 15:16:21,03-02-2024 15:16:21,0.868s,PASSED
+"selectOptionByValue(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center     Hongkong CURA Healthcare Center  Seoul CURA Healthcare Center""), ""Hongkong CURA Healthcare Center"", true)",Firefox 122.0,,,03-02-2024 15:16:21,03-02-2024 15:16:23,1.369s,PASSED
+"verifyElementNotChecked(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission""), 0)",Firefox 122.0,,,03-02-2024 15:16:23,03-02-2024 15:16:23,0.366s,PASSED
+"click(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Firefox 122.0,,,03-02-2024 15:16:23,03-02-2024 15:16:24,0.562s,PASSED
+"verifyElementChecked(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission""), 0)",Firefox 122.0,,,03-02-2024 15:16:24,03-02-2024 15:16:24,0.370s,PASSED
+"click(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/label_Medicare""))",Firefox 122.0,,,03-02-2024 15:16:24,03-02-2024 15:16:25,0.536s,PASSED
+"click(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Firefox 122.0,,,03-02-2024 15:16:25,03-02-2024 15:16:25,0.567s,PASSED
+"click(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/td_17""))",Firefox 122.0,,,03-02-2024 15:16:25,03-02-2024 15:16:26,0.567s,PASSED
+"setText(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Make Appointment TC_002"")",Firefox 122.0,,,03-02-2024 15:16:26,03-02-2024 15:16:26,0.635s,PASSED
+"click(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 122.0,,,03-02-2024 15:16:26,03-02-2024 15:16:28,1.342s,PASSED
+"verifyElementPresent(findTestObject(""Cura_MakeAppointment_OR/Page_CURA Healthcare Service/h2_Appointment Confirmation""), 0)",Firefox 122.0,,,03-02-2024 15:16:28,03-02-2024 15:16:28,0.481s,PASSED
+"verifyTextPresent(""Please be informed that your appointment has been booked as following:"", false)",Firefox 122.0,,,03-02-2024 15:16:28,03-02-2024 15:16:29,0.355s,PASSED
+closeBrowser(),Firefox 122.0,,,03-02-2024 15:16:29,03-02-2024 15:16:35,6.265s,PASSED
+Start listener action : logout,Firefox 122.0,,,03-02-2024 15:16:35,03-02-2024 15:16:35,0.266s,ERROR

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_MakeAppointment_002,,crossbrowser testing,,05-02-2024 08:27:55,05-02-2024 08:28:01,5.518s,FAILED
+,,,,,,,
+Test Cases/TC_Cura_MakeAppointment_002,,record and play mode make appointment tc_002,,05-02-2024 08:28:00,05-02-2024 08:28:01,0.966s,FAILED
+Start listener action : Login,,,,05-02-2024 08:28:00,05-02-2024 08:28:00,0.219s,ERROR
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",,,,05-02-2024 08:28:00,05-02-2024 08:28:00,0.055s,FAILED
+Start listener action : logout,,,,05-02-2024 08:28:00,05-02-2024 08:28:01,0.616s,ERROR

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_TC_Cura_Login_001_Excel,Firefox 122.0,data driven test on Cura HCS Login,,01-02-2024 15:28:03,01-02-2024 15:29:03,1m - 0.044s,PASSED
+,,,,,,,
+Test Cases/DDT_TC_Cura_Login_001,Firefox 122.0,Cura_HRS_login record and play mode,,01-02-2024 15:28:04,01-02-2024 15:28:19,15.772s,PASSED
+"openBrowser("""")",Firefox 122.0,,,01-02-2024 15:28:04,01-02-2024 15:28:12,7.873s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,01-02-2024 15:28:12,01-02-2024 15:28:15,2.893s,PASSED
+"click(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 122.0,,,01-02-2024 15:28:15,01-02-2024 15:28:17,1.551s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/input_Username_username""), username)",Firefox 122.0,,,01-02-2024 15:28:17,01-02-2024 15:28:17,0.787s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/input_Password_password""), password)",Firefox 122.0,,,01-02-2024 15:28:17,01-02-2024 15:28:18,0.697s,PASSED
+"click(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,,,01-02-2024 15:28:18,01-02-2024 15:28:19,0.991s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Firefox 122.0,,,01-02-2024 15:28:19,01-02-2024 15:28:19,0.435s,PASSED
+,,,,,,,
+Test Cases/DDT_TC_Cura_Login_001,Firefox 122.0,Cura_HRS_login record and play mode,,01-02-2024 15:28:20,01-02-2024 15:28:50,30.246s,PASSED
+"openBrowser("""")",Firefox 122.0,,,01-02-2024 15:28:20,01-02-2024 15:28:43,23.332s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,01-02-2024 15:28:43,01-02-2024 15:28:46,2.718s,PASSED
+"click(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 122.0,,,01-02-2024 15:28:46,01-02-2024 15:28:47,0.815s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/input_Username_username""), username)",Firefox 122.0,,,01-02-2024 15:28:47,01-02-2024 15:28:48,1.075s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/input_Password_password""), password)",Firefox 122.0,,,01-02-2024 15:28:48,01-02-2024 15:28:48,0.724s,PASSED
+"click(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,,,01-02-2024 15:28:48,01-02-2024 15:28:49,0.987s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Firefox 122.0,,,01-02-2024 15:28:49,01-02-2024 15:28:50,0.471s,PASSED
+,,,,,,,
+Test Cases/DDT_TC_Cura_Login_001,Firefox 122.0,Cura_HRS_login record and play mode,,01-02-2024 15:28:50,01-02-2024 15:29:03,13.241s,PASSED
+"openBrowser("""")",Firefox 122.0,,,01-02-2024 15:28:50,01-02-2024 15:28:57,6.597s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,01-02-2024 15:28:57,01-02-2024 15:28:59,2.690s,PASSED
+"click(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 122.0,,,01-02-2024 15:28:59,01-02-2024 15:29:00,0.838s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/input_Username_username""), username)",Firefox 122.0,,,01-02-2024 15:29:00,01-02-2024 15:29:01,0.832s,PASSED
+"setText(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/input_Password_password""), password)",Firefox 122.0,,,01-02-2024 15:29:01,01-02-2024 15:29:02,0.711s,PASSED
+"click(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,,,01-02-2024 15:29:02,01-02-2024 15:29:03,1.066s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Cura_Login_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Firefox 122.0,,,01-02-2024 15:29:03,01-02-2024 15:29:03,0.458s,PASSED
