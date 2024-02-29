@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cura_HRS_login record and play mode</description>
+   <name>DDT_TC_Cura_Login_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87cb63a3-9459-4feb-ba32-8d72bca1e49f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db50f3b8-c5aa-49ed-8434-ac7a9aaf30ce</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6b284ab-77a7-4ef9-a467-88263a825a02</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>db50f3b8-c5aa-49ed-8434-ac7a9aaf30ce</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6b284ab-77a7-4ef9-a467-88263a825a02</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
