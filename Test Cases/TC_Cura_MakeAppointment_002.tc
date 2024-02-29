@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>record and play mode make appointment tc_002</description>
-   <name>TC_Cura_MakeAppointment_002</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>537d0211-c1b6-4e69-9df7-5375c21f8c61</testCaseGuid>
-</TestCaseEntity>
